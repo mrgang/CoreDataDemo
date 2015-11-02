@@ -119,7 +119,7 @@
 				TargetAttributes = {
 					CE0D2ED91BDA20BA00DA661E = {
 						CreatedOnToolsVersion = 7.1;
-						DevelopmentTeam = H2XQ7AV5TM;
+						DevelopmentTeam = 3826X6TJ59;
 					};
 				};
 			};
@@ -319,6 +319,7 @@
 				CE0D2EF11BDA20BA00DA661E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

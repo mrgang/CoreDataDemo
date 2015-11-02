@@ -82,6 +82,13 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="result" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aMw-k0-Btq">
+                                <rect key="frame" x="20" y="452" width="560" height="140"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -94,21 +101,26 @@
                             <constraint firstItem="UHQ-Fg-3bP" firstAttribute="leading" secondItem="3A8-ZL-LHD" secondAttribute="leading" id="8Nt-cC-hTM"/>
                             <constraint firstItem="Sv5-CN-L2G" firstAttribute="top" secondItem="qVS-oU-HdF" secondAttribute="bottom" constant="8" symbolic="YES" id="AIe-C7-rTS"/>
                             <constraint firstItem="3A8-ZL-LHD" firstAttribute="leading" secondItem="yvm-75-fMg" secondAttribute="leading" id="FeZ-Bk-VpS"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="aMw-k0-Btq" secondAttribute="bottom" constant="8" id="Gzg-Pf-OgS"/>
                             <constraint firstItem="Sv5-CN-L2G" firstAttribute="trailing" secondItem="qVS-oU-HdF" secondAttribute="trailing" id="KY4-b3-rVC"/>
                             <constraint firstItem="yvm-75-fMg" firstAttribute="top" secondItem="3A8-ZL-LHD" secondAttribute="bottom" constant="8" id="O1T-KB-vdh"/>
                             <constraint firstItem="yvm-75-fMg" firstAttribute="leading" secondItem="AKH-Ls-ml8" secondAttribute="leading" id="P4M-Md-i7V"/>
                             <constraint firstItem="qVS-oU-HdF" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="23" id="VYl-dB-OUw"/>
                             <constraint firstItem="UHQ-Fg-3bP" firstAttribute="centerX" secondItem="Sv5-CN-L2G" secondAttribute="centerX" id="ZeD-Nx-C0c"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="AKH-Ls-ml8" secondAttribute="bottom" constant="156" id="aVQ-ao-BLN"/>
+                            <constraint firstItem="aMw-k0-Btq" firstAttribute="top" secondItem="AKH-Ls-ml8" secondAttribute="bottom" constant="8" id="cHB-uf-54y"/>
                             <constraint firstItem="35G-Au-34r" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="dPo-oZ-ZIy"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="aMw-k0-Btq" secondAttribute="trailing" id="g2h-yA-mhK"/>
                             <constraint firstItem="geo-Ba-KMS" firstAttribute="top" secondItem="35G-Au-34r" secondAttribute="bottom" constant="8" id="t1I-Kg-ZG3"/>
                             <constraint firstItem="geo-Ba-KMS" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="t2D-1b-Li8"/>
                             <constraint firstItem="qVS-oU-HdF" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="10" id="vXt-nE-Jf2"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="aMw-k0-Btq" secondAttribute="leading" id="xkn-H5-09t"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="lab1" destination="qVS-oU-HdF" id="Q5N-bD-z4B"/>
                         <outlet property="lab2" destination="Sv5-CN-L2G" id="iRW-pa-gHS"/>
+                        <outlet property="lableResult" destination="aMw-k0-Btq" id="ced-1S-nUU"/>
                         <outlet property="textInputAge" destination="35G-Au-34r" id="MIg-id-0cb"/>
                         <outlet property="textInputName" destination="geo-Ba-KMS" id="Ovi-Qy-ar3"/>
                     </connections>
